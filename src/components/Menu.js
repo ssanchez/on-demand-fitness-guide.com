@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import config from '../utils/siteConfig'
 
 const Header = styled.header`
   background: ${props => props.theme.colors.base};
   width: 100%;
-  padding: 1.5em 0;
+  padding: 1rem 0;
+  box-shadow: 0px 5px 10px 0px #666666;
+
 `
 const Nav = styled.nav`
   width: 100%;
@@ -51,7 +54,7 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" activeStyle={activeLinkStyle}>
-              Home
+              {config.siteTitle}
             </Link>
           </li>
           <li>
