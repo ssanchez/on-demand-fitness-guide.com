@@ -7753,10 +7753,10 @@ gatsby-remark-autolink-headers@^5.25.0:
     mdast-util-to-string "^2.0.0"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-images-contentful@^6.12.1:
-  version "6.12.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images-contentful/-/gatsby-remark-images-contentful-6.12.1.tgz#f35fbe111bd30b458de278269f3aab69416cb632"
-  integrity sha512-IdhEotcsGQkdNSlY7N+cZUMmiC8PpNfoXP1oSjuxESsDM94Wx7Q+kppk21hiUYLxujVhZCC//qI8B2DuiL//UA==
+gatsby-remark-images-contentful@^6.13.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images-contentful/-/gatsby-remark-images-contentful-6.13.0.tgz#073c0a8df225c63be87996e548cc914fcfeb659e"
+  integrity sha512-xbmkgiuewU2/vkTIvOS+N/4UrUMIBwSUVzCPZSd0ehACWrmDNansx9x4U4OkKY1Fpib8Z8GpgrKfNXhRlMSfew==
   dependencies:
     "@babel/runtime" "^7.20.13"
     axios "^0.21.1"
