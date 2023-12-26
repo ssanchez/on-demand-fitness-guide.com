@@ -6,7 +6,7 @@
   "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.1",
-    "chalk": "^2.4.2",
+    "chalk": "^5.3.0",
     "contentful-import": "^7.5.0",
     "gatsby": "^4.25.7",
     "gatsby-image": "^3.11.0",
