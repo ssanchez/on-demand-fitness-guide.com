@@ -1465,7 +1465,7 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.1.tgz#fde96064ca446dec8c55a8c2f130957b070c6e06"
   integrity sha512-yN7kbciD87WzLGc5539Tn0sApjyiGHAJgKvG9W8C7O+6c7qmoQMfVs0W4bX17eqz6C78QJqqFrtgdK5EWf6Qow==
 
-"@hapi/hoek@^9.0.0":
+"@hapi/hoek@^9.0.0", "@hapi/hoek@^9.3.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
   integrity sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==
@@ -1487,7 +1487,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@hapi/topo@^5.0.0":
+"@hapi/topo@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@hapi/topo/-/topo-5.1.0.tgz#dc448e332c6c6e37a4dc02fd84ba8d44b9afb012"
   integrity sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==
@@ -2133,7 +2133,7 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@sideway/address@^4.1.3":
+"@sideway/address@^4.1.4":
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/@sideway/address/-/address-4.1.4.tgz#03dccebc6ea47fdc226f7d3d1ad512955d4783f0"
   integrity sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==
@@ -4125,20 +4125,20 @@ contentful-batch-libs@^9.6.0:
     lodash.clonedeep "^4.5.0"
     uuid "^9.0.1"
 
-contentful-import@^9.4.25:
-  version "9.4.25"
-  resolved "https://registry.yarnpkg.com/contentful-import/-/contentful-import-9.4.25.tgz#c493e7ec92aec678a4501756031d2ca8fe84d781"
-  integrity sha512-NqyPx4uIVyBm69yY6V6f84uz6cSNSGq4yFzrRzV7OS+4HMZLRaqJOBxGgsmV60JF77jalMzDVU/u1iEOFMQQog==
+contentful-import@^9.4.29:
+  version "9.4.29"
+  resolved "https://registry.yarnpkg.com/contentful-import/-/contentful-import-9.4.29.tgz#d59204f9fd541d6a06d921f159757c49f6c19eaa"
+  integrity sha512-P48zvjArbMLO6cK2y+93AKHyDznaJdGHVWtaDRyepJPQ3sJMRFRt7zLTlonXFhrMI428F5ZWqsq4tUE6H4CfGw==
   dependencies:
     "@discoveryjs/json-ext" "^0.5.7"
     bluebird "^3.7.2"
     cli-table3 "^0.6.0"
     contentful-batch-libs "^9.6.0"
-    contentful-management "^11.12.0"
+    contentful-management "^11.13.0"
     date-fns "^2.30.0"
     eslint "^8.56.0"
     eslint-config-standard "^17.1.0"
-    joi "^17.11.0"
+    joi "^17.12.0"
     listr "^0.14.1"
     listr-update-renderer "^0.5.0"
     listr-verbose-renderer "^0.6.0"
@@ -4146,10 +4146,10 @@ contentful-import@^9.4.25:
     p-queue "^6.6.2"
     yargs "^17.7.2"
 
-contentful-management@^11.12.0:
-  version "11.12.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.12.0.tgz#62d18db9e0728954ebd7fcbc4e97f98fa6a73f66"
-  integrity sha512-2ptAIH0ITHUDSS2GQLoaxMHdpkzq99Vctarl5RbaHQ1rxty3m2+cmabVBGQca3CeXYQmwCyUiZhbAtDtsU2q+A==
+contentful-management@^11.13.0:
+  version "11.13.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.13.0.tgz#44d31154e0a166474e3299e863401ce702e5ffe9"
+  integrity sha512-jyJWfgZkvSblagmpgQvCvOoNqzI5u6bF0dKBkOmBHh9ZgUlHWaS4X1GIMxbxai2lGvOis7uzLxpECDS1vHufvw==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -8165,14 +8165,14 @@ jest-worker@^27.4.5, jest-worker@^27.5.1:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-joi@^17.11.0, joi@^17.2.1, joi@^17.4.2, joi@^17.9.2:
-  version "17.11.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-17.11.0.tgz#aa9da753578ec7720e6f0ca2c7046996ed04fc1a"
-  integrity sha512-NgB+lZLNoqISVy1rZocE9PZI36bL/77ie924Ri43yEvi9GUUMPeyVIr8KdFTMUlby1p0PBYMk9spIxEUQYqrJQ==
+joi@^17.12.0, joi@^17.2.1, joi@^17.4.2, joi@^17.9.2:
+  version "17.12.0"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-17.12.0.tgz#a3fb5715f198beb0471cd551dd26792089c308d5"
+  integrity sha512-HSLsmSmXz+PV9PYoi3p7cgIbj06WnEBNT28n+bbBNcPZXZFqCzzvGqpTBPujx/Z0nh1+KNQPDrNgdmQ8dq0qYw==
   dependencies:
-    "@hapi/hoek" "^9.0.0"
-    "@hapi/topo" "^5.0.0"
-    "@sideway/address" "^4.1.3"
+    "@hapi/hoek" "^9.3.0"
+    "@hapi/topo" "^5.1.0"
+    "@sideway/address" "^4.1.4"
     "@sideway/formula" "^3.0.1"
     "@sideway/pinpoint" "^2.0.0"
 
